@@ -54,7 +54,7 @@ func _ready():
 	
 	loadRewardedVideos([RVIDEO_1, RVIDEO_2, RVIDEO_3])
 
-# upport multiple rewards.
+# Support multiple rewards.
 func loadRewardedVideos(adRewardedIds: PoolStringArray):
 	for rewardedId in adRewardedIds:
 		loadRewardedVideo(rewardedId)
