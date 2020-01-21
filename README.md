@@ -9,7 +9,7 @@ Google Admob module for [Godot Engine](https://github.com/okamstudio/godot). (On
 
 이 저장소는 https://github.com/Shin-NiL/godot-admob 의 이슈 `Multiple locks on web thread not allowed` 를 해결하기 위해 Google AdMob 의 새로운 API 로 구현한 ios 전용 광고 모듈 입니다.
 
-따라서, 최대한 Shin-NiL 저장소의 모듈과 인터페이스를 유지하도록 하였습니다. 그래도 완전히 같지는 않습니다. 이제는 여러개의 보상형 광고를 사용할 수 있기 때문에 약간의 수정이 필요합니다. 그리고 Google AdMob의 지침에 따라 새 API의 적용방식이 조금은 더 번거럽습니다.
+따라서, 최대한 Shin-NiL 저장소의 모듈과 인터페이스를 유지하도록 하였습니다. 그래도 완전히 같지는 않습니다. 이제는 여러개의 보상형 광고를 사용할 수 있기 때문에 약간의 수정이 필요합니다. 그리고 Google AdMob의 지침에 따라 새 API의 적용방식이 조금은 더 번거롭습니다.
 
 This repository is an advertising module dedicated to iOS implemented with Google AdMob's new API to resolve the issue ‘Multiple locks on web thread not allowed’ on https://github.com/Shin-NiL/godot-admob.
 
