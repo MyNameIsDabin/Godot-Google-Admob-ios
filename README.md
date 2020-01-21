@@ -24,7 +24,7 @@ How to Use
 - [Compile the iOS export template](https://docs.godotengine.org/en/latest/development/compiling/compiling_for_ios.html).
 - [Exporting to iOS](http://docs.godotengine.org/en/stable/getting_started/workflow/export/exporting_for_ios.html).
 
-And you can change some of the settings in the xcode project to use the new API in Google Adobe.
+And you can change some of the settings in the xcode project to [use the new API in Google Admob](https://developers.google.com/admob/ios/quick-start?hl=en).
 - Import the framework files in the "lib" folder into your Xcode project.
 - Add the -ObjC linker flag to Other Linker Flags in your project's build settings
 - In your app's Info.plist file, add a GADApplicationIdentifier key with a string value of your AdMob app ID.
@@ -32,3 +32,4 @@ And you can change some of the settings in the xcode project to use the new API 
 <key>GADApplicationIdentifier</key>
 <string>ca-app-pub-XXXXXXXXXXXXX~XXXXXXXX</string>
 ```
+
