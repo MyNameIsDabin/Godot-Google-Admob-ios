@@ -1,6 +1,6 @@
 Godot-Google-Admob-ios
 ======
-
+This is support Godot 3.2+ (It may work with different versions but has not been tested below 3.2)
 Google Admob module for [Godot Engine](https://github.com/okamstudio/godot). (Only ios)
 
 - Banner (I'm lazy and don't apply.)
@@ -18,3 +18,17 @@ Therefore, the interface with the module in the Shin-NiL repository is maintaine
 
 How to Use
 -----
+
+- Clone or download this repository.
+- Drop the "admob" directory inside the "modules" directory on the [Godot source](https://github.com/okamstudio/godot).
+- [Compile the iOS export template](https://docs.godotengine.org/en/latest/development/compiling/compiling_for_ios.html).
+- [Exporting to iOS](http://docs.godotengine.org/en/stable/getting_started/workflow/export/exporting_for_ios.html).
+
+And you can change some of the settings in the xcode project to use the new API in Google Adobe.
+- Import the framework files in the "lib" folder into your Xcode project.
+- Add the -ObjC linker flag to Other Linker Flags in your project's build settings
+- In your app's Info.plist file, add a GADApplicationIdentifier key with a string value of your AdMob app ID.
+```
+<key>GADApplicationIdentifier</key>
+<string>ca-app-pub-XXXXXXXXXXXXX~XXXXXXXX</string>
+```
